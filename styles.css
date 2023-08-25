@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+#line{
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    animation: lineRotate 3s linear 0s infinite forwards;
+}
+@keyframes lineRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
