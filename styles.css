@@ -6,6 +6,7 @@ body{
     align-items: center;
 }
 #line{
+	position:absolute;
     background-color: black;
     width: 200px;
     height: 2px;
